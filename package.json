@@ -1,0 +1,16 @@
+{
+  "name": "planetscale-transaction-repro",
+  "type": "module",
+  "scripts": {
+    "mysql2": "tsx mysql2.ts",
+    "ps": "tsx ps.ts"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.11.0",
+    "@tsconfig/node18": "^18.2.1",
+    "@types/node": "^20.5.9",
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.0",
+    "tsx": "^3.12.8"
+  }
+}
